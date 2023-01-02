@@ -11,8 +11,8 @@ console.log(firstName);
 */
 
 //Lecture Value and Variables
-let country = "Portugal";
-let continent = "Europa";
+const country = "Portugal";
+const continent = "Europa";
 let population = "10.3M";
 console.log(country);
 console.log(continent);
@@ -49,10 +49,27 @@ console.log(year);
 console.log(typeof year);
 
 console.log(typeof null);
- */
+*/
 
 //Lecture Data types
 let isIsland = false;
 let language;
 console.log(isIsland);
+
+/**
+ * let, const, var
+
+let age = 30;
+age = 41;
+
+const bithYear = 1997;
+// bithYear = 1991
+// const job;
+
+job = "teacher";
+var job = "Programmer";
+ */
+
+//Lecture let, const, var
+language = "Portuguese";
 console.log(language);
