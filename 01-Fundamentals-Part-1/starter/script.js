@@ -78,7 +78,6 @@ console.log(language);
 //------------------------------------------------------
 /**
  * BASIC OPERATOR
- */
 
 // Math Operator
 const now = 2037;
@@ -124,3 +123,20 @@ console.log(portugalPopulation < populationCountry);
 // Lecture 5
 const description =
   "Portugal is in Europe, and its 11 million people speak portuguese";
+*/
+
+//------------------------------------------------------
+/**
+ * Operator Procedure
+ */
+const now = 2037;
+const ageJonas = now - 1991;
+const ageSara = now - 2018;
+console.log(now - 1991 > now - 2018);
+
+let x, y;
+x = y = 25 - 10 - 5; // x = y = 10
+console.log(x, y);
+
+const averageAge = (ageJonas + ageSara) / 2;
+console.log(ageJonas, ageSara, averageAge);
