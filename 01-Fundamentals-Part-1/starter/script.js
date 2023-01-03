@@ -11,12 +11,12 @@ console.log(firstName);
 */
 
 //Lecture Value and Variables
-const country = "Portugal";
-const continent = "Europa";
-let portugalPopulation = 1100000;
-console.log(country);
-console.log(continent);
-console.log(portugalPopulation);
+// const country = "Portugal";
+// const continent = "Europa";
+// let portugalPopulation = 1100000;
+// console.log(country);
+// console.log(continent);
+// console.log(portugalPopulation);
 
 //------------------------------------------------------
 /**
@@ -53,9 +53,9 @@ console.log(typeof null);
 */
 
 //Lecture Data types
-let isIsland = false;
-let language;
-console.log(isIsland);
+// let isIsland = false;
+// let language;
+// console.log(isIsland);
 
 /**
  * let, const, var
@@ -72,8 +72,8 @@ var job = "Programmer";
  */
 
 //Lecture let, const, var
-language = "Portuguese";
-console.log(language);
+// language = "Portuguese";
+// console.log(language);
 
 //------------------------------------------------------
 /**
@@ -128,7 +128,7 @@ const description =
 //------------------------------------------------------
 /**
  * Operator Procedure
- */
+
 const now = 2037;
 const ageJonas = now - 1991;
 const ageSara = now - 2018;
@@ -140,3 +140,4 @@ console.log(x, y);
 
 const averageAge = (ageJonas + ageSara) / 2;
 console.log(ageJonas, ageSara, averageAge);
+*/
