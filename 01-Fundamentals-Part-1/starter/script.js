@@ -13,11 +13,12 @@ console.log(firstName);
 //Lecture Value and Variables
 const country = "Portugal";
 const continent = "Europa";
-let population = "10.3M";
+let portugalPopulation = 1100000;
 console.log(country);
 console.log(continent);
-console.log(population);
+console.log(portugalPopulation);
 
+//------------------------------------------------------
 /**
  * DATA TYPES
  *
@@ -73,3 +74,53 @@ var job = "Programmer";
 //Lecture let, const, var
 language = "Portuguese";
 console.log(language);
+
+//------------------------------------------------------
+/**
+ * BASIC OPERATOR
+ */
+
+// Math Operator
+const now = 2037;
+const ageJonas = now - 1991;
+const ageSara = now - 2018;
+console.log(ageJonas, ageSara);
+
+// 2 ** 3 means 2 to the power of 3 = 2 * 2 * 2
+console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
+
+const firtName = "Jonas";
+const lastname = "Ros";
+console.log(firtName + " " + lastname);
+
+// Assigment Operator
+let x = 10 + 5; // 15
+x += 10; // x = x + 10 = 25
+x *= 4; // x = x * 4
+x++; // x = x + 1
+x--; // x = x - 1
+console.log(x);
+
+// Comparison Operators
+console.log(ageJonas > ageSara);
+console.log(ageSara >= 18);
+
+const isFullAge = ageSara >= 18;
+console.log(now - 1991 > now - 2018);
+
+// Lecture Basic Operator
+
+// Lecture 1
+console.log(portugalPopulation / 2);
+// Lecture 2
+portugalPopulation++;
+console.log(portugalPopulation);
+// Lecture 3
+const filandPopulation = 6000000;
+console.log(portugalPopulation > filandPopulation);
+// Lecture 4
+const populationCountry = 33300000;
+console.log(portugalPopulation < populationCountry);
+// Lecture 5
+const description =
+  "Portugal is in Europe, and its 11 million people speak portuguese";
