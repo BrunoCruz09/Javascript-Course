@@ -177,6 +177,7 @@ const description = `Portugal is in Europe, and its 11 million people speak port
 console.log(description);
 */
 
+//------------------------------------------------------
 /**
  * Taking decisions: if / else statements
 
@@ -207,3 +208,40 @@ if (portugalPopulation > 33000000) {
   console.log(`Portugal's population is 22000000 below average`);
 }
 */
+
+//------------------------------------------------------
+/**
+ * Type convertion and Coercion
+ */
+
+/**
+ * Type convertion
+ */
+//Convert string to number
+const inputYear = "1991";
+console.log(Number(inputYear));
+console.log(Number(inputYear) + 18);
+
+console.log(Number("Jonas"));
+console.log(typeof NaN);
+
+//Convert number to string
+console.log(String(12), 23);
+
+/**
+ * Type Coercion
+ */
+console.log("I am " + 23 + " years old.");
+console.log("23" - "10" - 3);
+console.log("23" / "2");
+
+let n = "1" + 1; //output = 11
+n = n - 1; //output 11 = 11 - 1 = 10
+console.log(n);
+
+//lecture 1
+console.log("9" - "5"); //4
+console.log("19" - "13" + "17"); //617
+console.log("19" - "13" + 17); //23
+console.log("123" < 57); //false
+console.log(5 + 6 + "4" + 9 - 4 - 2); //1143
