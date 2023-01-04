@@ -179,7 +179,7 @@ console.log(description);
 
 /**
  * Taking decisions: if / else statements
- */
+
 
 const age = 15;
 
@@ -206,3 +206,4 @@ if (portugalPopulation > 33000000) {
 } else {
   console.log(`Portugal's population is 22000000 below average`);
 }
+*/
