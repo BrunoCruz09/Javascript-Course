@@ -141,3 +141,38 @@ console.log(x, y);
 const averageAge = (ageJonas + ageSara) / 2;
 console.log(ageJonas, ageSara, averageAge);
 */
+
+//------------------------------------------------------
+/**
+ * String and templates literals
+
+
+const firstName = "jonas";
+const job = "Developer";
+const birthYear = 1991;
+const year = 2037;
+
+const jonas =
+  "I'm " + firstName + ", a " + (year - birthYear) + " years old " + job + "!";
+console.log(jonas);
+
+//ES6 template strings
+const jonasNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
+console.log(jonasNew);
+
+console.log(`Just a regular string`);
+
+console.log(
+  "String with \n\
+multiple \n\
+lines"
+);
+
+console.log(`String with
+multiple
+lines`);
+
+//Lecture 1
+const description = `Portugal is in Europe, and its 11 million people speak portuguese`;
+console.log(description);
+*/
