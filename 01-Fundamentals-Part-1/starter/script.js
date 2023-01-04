@@ -176,3 +176,33 @@ lines`);
 const description = `Portugal is in Europe, and its 11 million people speak portuguese`;
 console.log(description);
 */
+
+/**
+ * Taking decisions: if / else statements
+ */
+
+const age = 15;
+
+if (age >= 18) {
+  console.log("Sara can start driving license 🚗");
+} else {
+  const yearsLeft = 18 - age;
+  console.log(`Sara is to young. Wait another ${yearsLeft} years 😀`);
+}
+
+const birthYear = 2001;
+let century;
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+console.log(century);
+
+//Lecture 1
+const portugalPopulation = 11000000;
+if (portugalPopulation > 33000000) {
+  console.log(`Portugal's population is above average`);
+} else {
+  console.log(`Portugal's population is 22000000 below average`);
+}
