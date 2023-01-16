@@ -300,3 +300,30 @@ if (favoriteNumber !== 9) {
   console.log("Why not 9");
 }
 */
+
+/**
+ * Logic Operator
+
+
+const hasDriversLicense = true;
+const hasGoodVision = true;
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense && hasGoodVision);
+
+// if (hasDriversLicense && hasGoodVision) {
+//   console.log("Able to drive");
+// } else {
+//   console.log("Someone else should drive");
+// }
+
+const isTired = true;
+console.log(hasDriversLicense && hasGoodVision && isTired);
+
+if (hasDriversLicense && hasGoodVision && !isTired) {
+  console.log("Able to drive");
+} else {
+  console.log("Someone else should drive");
+}
+*/
