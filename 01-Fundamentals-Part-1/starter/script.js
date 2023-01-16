@@ -274,3 +274,29 @@ if (height) {
   console.log("height is Undifined");
 }
 */
+
+/**
+ * Equality Operator == vs. ===
+
+const age = "18";
+
+if (age === 18) console.log("1-You just became an adult");
+if (age == 18) console.log("2-You just became an adult");
+
+const favoriteNumber = Number(prompt("Favorite number:"));
+console.log(favoriteNumber);
+console.log(typeof favoriteNumber);
+
+if (favoriteNumber === 9) {
+  // 9 === 9
+  console.log("Cool number");
+} else if (favoriteNumber === 7) {
+  console.log("It's cool number");
+} else {
+  console.log("Number is not 9 or 7");
+}
+
+if (favoriteNumber !== 9) {
+  console.log("Why not 9");
+}
+*/
