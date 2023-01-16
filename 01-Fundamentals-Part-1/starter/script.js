@@ -343,3 +343,17 @@ if (hasDriversLicense && hasGoodVision && !isTired) {
   console.log("Someone else should drive");
 }
 */
+
+/**
+ * LECTURE
+
+const myCountrySpeakEnglish = false;
+const moreThenFiftyMillionPeople = false;
+const isIsland = false;
+
+if (myCountrySpeakEnglish && moreThenFiftyMillionPeople && isIsland) {
+    console.log('You should live in Portugal :)')
+} else {
+    console.log('Portugal does not meet your criteria :(')
+}
+ */
