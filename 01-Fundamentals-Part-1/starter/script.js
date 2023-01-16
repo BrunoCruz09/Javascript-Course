@@ -216,7 +216,7 @@ if (portugalPopulation > 33000000) {
 
 /**
  * Type convertion
- */
+
 //Convert string to number
 const inputYear = "1991";
 console.log(Number(inputYear));
@@ -227,10 +227,11 @@ console.log(typeof NaN);
 
 //Convert number to string
 console.log(String(12), 23);
+*/
 
 /**
  * Type Coercion
- */
+
 console.log("I am " + 23 + " years old.");
 console.log("23" - "10" - 3);
 console.log("23" / "2");
@@ -245,3 +246,31 @@ console.log("19" - "13" + "17"); //617
 console.log("19" - "13" + 17); //23
 console.log("123" < 57); //false
 console.log(5 + 6 + "4" + 9 - 4 - 2); //1143
+*/
+
+/**
+ * Truthy and Falsy Values
+ * 5 falsy values: 0, '', undefined, null, NaN
+
+
+console.log(Boolean(0));
+console.log(Boolean("Jonas"));
+console.log(Boolean(undefined));
+console.log(Boolean(null));
+console.log(Boolean(NaN));
+console.log(Boolean({}));
+
+const money = 0;
+if (money) {
+  console.log("Don't spend it all");
+} else {
+  console.log("You should get a job");
+}
+
+let height = 123;
+if (height) {
+  console.log("Defined");
+} else {
+  console.log("height is Undifined");
+}
+*/
