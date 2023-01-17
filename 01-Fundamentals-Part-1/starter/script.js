@@ -357,7 +357,7 @@ if (myCountrySpeakEnglish && moreThenFiftyMillionPeople && isIsland) {
     console.log('Portugal does not meet your criteria :(')
 }
  */
-//------------------------------------------------------------------------------
+//-----------------------------------------------------------------------------
 /**
  * Switch Statement
 
