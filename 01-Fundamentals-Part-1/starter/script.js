@@ -18,7 +18,7 @@ console.log(firstName);
 // console.log(continent);
 // console.log(portugalPopulation);
 
-//------------------------------------------------------
+//------------------------------------------------------------------------------
 /**
  * DATA TYPES
  *
@@ -75,7 +75,7 @@ var job = "Programmer";
 // language = "Portuguese";
 // console.log(language);
 
-//------------------------------------------------------
+//------------------------------------------------------------------------------
 /**
  * BASIC OPERATOR
 
@@ -125,7 +125,7 @@ const description =
   "Portugal is in Europe, and its 11 million people speak portuguese";
 */
 
-//------------------------------------------------------
+//------------------------------------------------------------------------------
 /**
  * Operator Procedure
 
@@ -142,7 +142,7 @@ const averageAge = (ageJonas + ageSara) / 2;
 console.log(ageJonas, ageSara, averageAge);
 */
 
-//------------------------------------------------------
+//------------------------------------------------------------------------------
 /**
  * String and templates literals
 
@@ -177,7 +177,7 @@ const description = `Portugal is in Europe, and its 11 million people speak port
 console.log(description);
 */
 
-//------------------------------------------------------
+//------------------------------------------------------------------------------
 /**
  * Taking decisions: if / else statements
 
@@ -209,7 +209,7 @@ if (portugalPopulation > 33000000) {
 }
 */
 
-//------------------------------------------------------
+//------------------------------------------------------------------------------
 /**
  * Type convertion and Coercion
  */
@@ -247,7 +247,7 @@ console.log("19" - "13" + 17); //23
 console.log("123" < 57); //false
 console.log(5 + 6 + "4" + 9 - 4 - 2); //1143
 */
-
+//------------------------------------------------------------------------------
 /**
  * Truthy and Falsy Values
  * 5 falsy values: 0, '', undefined, null, NaN
@@ -274,7 +274,7 @@ if (height) {
   console.log("height is Undifined");
 }
 */
-
+//------------------------------------------------------------------------------
 /**
  * Equality Operator == vs. ===
 
@@ -316,7 +316,7 @@ if (numNeighbours === 1) {
     console.log("No borders")
 }
  */
-
+//------------------------------------------------------------------------------
 /**
  * Logic Operator
 
@@ -355,5 +355,50 @@ if (myCountrySpeakEnglish && moreThenFiftyMillionPeople && isIsland) {
     console.log('You should live in Portugal :)')
 } else {
     console.log('Portugal does not meet your criteria :(')
+}
+ */
+//------------------------------------------------------------------------------
+/**
+ * Switch Statement
+
+
+const day = 'sunday';
+
+switch (day) {
+    case "monday":// day === 'monday'
+        console.log('Plan my course structure');
+        console.log('Go to coding meetup');
+        break;
+    case 'tuesday':
+        console.log('Prepare theory videos');
+        break;
+    case 'wednesday':
+    case 'thursday':
+        console.log('Write code examples');
+        break;
+    case 'friday':
+        console.log('Record videos');
+        break;
+    case 'saturday':
+    case 'sunday':
+        console.log('Enjoy the weekend');
+        break;
+    default:
+        console.log('Not a valid day');
+}
+//if version
+if (day === 'monday') {
+    console.log('Plan my course structure');
+    console.log('Go to coding meetup');
+} else if (day === 'tuesday') {
+    console.log('Prepare theory videos');
+} else if (day === 'wednesday' || day === 'thursday') {
+    console.log('Write code examples');
+} else if (day === 'friday') {
+    console.log('Record videos');
+} else if (day === 'saturday' || day === 'sunday') {
+    console.log('Enjoy the weekend');
+} else {
+    console.log('Not a valid day');
 }
  */
