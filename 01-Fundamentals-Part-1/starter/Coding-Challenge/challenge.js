@@ -58,3 +58,12 @@ console.log('Dolphins: ' + averageDolphins +" | "+ 'Koalas: ' + averagekoalas)
 if (averageDolphins === averagekoalas && averageDolphins >= 100 && averagekoalas >= 100){
   console.log("Both team have the same average score");
 }*/
+
+/**
+ * CHALLENGE Four
+
+const bill = 301;
+const tip = bill >= 50 && bill <= 300 ? 15/100 : 20/100;
+
+console.log(bill >= 50 && bill <= 300 ? `1-The bill was ${bill}, the tip was ${bill*tip}, and the total value ${bill + (bill*tip)}` : `2-The bill was ${bill}, the tip was ${bill*tip}, and the total value ${bill + (bill*tip)}`);
+*/
