@@ -42,3 +42,40 @@ logger(describeCountry('Finland', '6 million', 'helsinki'));
 logger(describeCountry('Portugal', '11 million', 'Lisboa'));
 logger(describeCountry('Spain', '46 million', 'Madrid'));
  */
+//-----------------------------------------------------------------------------
+/**
+ * Function Declarations vs Expressions
+
+
+//Function declaration
+function calcAge1(birthYear) {
+    return 2023 - birthYear;
+}
+logger(calcAge1(1986));
+
+//Function expression
+const calcAge2 = function (birthYear) {
+    return 2023 - birthYear;
+}
+logger(calcAge2(1982))
+*/
+
+/**
+ * LECTURE: Function Declarations vs Expressions
+
+
+//Function declaration
+function percentageOfWorld1(population) {
+    return (population / 7900) * 100 + '%';
+}
+logger(percentageOfWorld1(7900));
+logger(percentageOfWorld1(3950));
+
+//Function expression
+const percentageOfWorld2 = function (population) {
+    return (population / 7900) * 100 + '%';
+}
+logger(percentageOfWorld2(7900));
+logger(percentageOfWorld2(3950));
+*/
+//-----------------------------------------------------------------------------
