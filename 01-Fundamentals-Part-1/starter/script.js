@@ -415,3 +415,29 @@ if(23 > 10) {
 //Expression
 console.log(`I'm ${2037 - 1991} years old.`)
  */
+//-----------------------------------------------------------------------------
+/**
+ * The ternary operator
+
+const age = 23;
+// age >= 18 ? console.log('I like to drink win 🍷') : console.log('I like to drink water 💦');
+
+const drink = age >= 18 ? 'wine 🍷': 'water 💦';
+console.log(drink)
+
+let drink2;
+if (age >= 18) {
+    drink2 = 'Wine 🍷'
+} else {
+    drink2 = 'Water 💦'
+}
+console.log(drink2)
+
+console.log(`I like to drink ${age >= 18 ? ' Wine🍷' : ' Water 💦'}`)
+ */
+/**
+ * LECTURE
+
+const portugalPopulation = 130000000;
+console.log(portugalPopulation > 33000000 ? `Portugal's population is above average` : `Portugal's population is below average`);
+*/
