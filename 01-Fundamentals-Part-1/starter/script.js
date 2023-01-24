@@ -402,3 +402,16 @@ if (day === 'monday') {
     console.log('Not a valid day');
 }
  */
+//-----------------------------------------------------------------------------
+/**
+ * Statements and Expressions
+
+
+//Statements
+if(23 > 10) {
+    const str = '23 is bigger';
+}
+
+//Expression
+console.log(`I'm ${2037 - 1991} years old.`)
+ */
