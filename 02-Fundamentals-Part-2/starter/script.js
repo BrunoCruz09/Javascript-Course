@@ -140,3 +140,24 @@ const population = (country, population) => {
 }
 logger(population('China', 1441));
 */
+//-----------------------------------------------------------------------------
+/**
+ * Reviewing function
+
+
+//Function declaration
+function convertCelsiusToFahrenheit(celsius) {
+    return `${celsius} Celsius is ${(celsius * 1.8) + 32} Fahrenheit`;
+}
+logger(convertCelsiusToFahrenheit(20))
+
+//Functions expressions
+const convertCelsiusToFahrenheit1 = function (celsius) {
+    return `${celsius} Celsius is ${(celsius * 1.8) + 32} Fahrenheit`;
+}
+logger(convertCelsiusToFahrenheit1(30))
+
+//Arrow Functions
+const convertCelsiusToFahrenheit2 = (celsius) => `${celsius} Celsius is ${(celsius * 1.8) + 32} Fahrenheit`;
+logger(convertCelsiusToFahrenheit2(40));
+*/
