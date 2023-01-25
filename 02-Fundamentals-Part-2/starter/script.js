@@ -79,3 +79,34 @@ logger(percentageOfWorld2(7900));
 logger(percentageOfWorld2(3950));
 */
 //-----------------------------------------------------------------------------
+/**
+ * Arrow Function
+
+const calcAge2 = function (birthYear) {
+    return 2023 - birthYear;
+}
+const calcAge3 = birthYear => 2029 - birthYear
+
+logger(calcAge3(1990));
+
+const yearsUntilRetirement = (birthYear, firstName) => {
+    const age = 2037 - birthYear;
+    const retirement = 65 - age;
+    //return retirement;
+    return `${firstName} retires in ${retirement} years`
+}
+
+logger(yearsUntilRetirement(1990, 'Jonas'));
+*/
+
+/**
+ * LECTURE Arrow Functions
+
+// Function expression
+// const percentageOfWorld2 = function (population) {
+//     return (population / 7900) * 100 + '%';
+// }
+
+const percentageOfWorld2 = population => (population / 7900) * 100 + '%'
+logger(percentageOfWorld2(3950));
+*/
