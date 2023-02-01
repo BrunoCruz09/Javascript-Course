@@ -161,3 +161,37 @@ logger(convertCelsiusToFahrenheit1(30))
 const convertCelsiusToFahrenheit2 = (celsius) => `${celsius} Celsius is ${(celsius * 1.8) + 32} Fahrenheit`;
 logger(convertCelsiusToFahrenheit2(40));
 */
+//-----------------------------------------------------------------------------
+/**
+ * Introducing arrays
+ */
+const friends = ['Jonas', 'Peter', 'Steve'];
+
+const y = new Array(1991,1992,1993,1994);
+logger(y)
+
+logger(friends);
+logger(friends[0])//log the specific position
+logger(friends.length);//array length
+logger(friends[friends.length - 1]);
+
+//change specific element in array
+friends[2] = 'Jay';
+logger(friends)
+
+const jonas = ['Jonas', 'Schmedtmann', 2037 - 1991, 'teacher', friends];
+logger(jonas);
+
+//Exercise
+const calcage = (birthYear) => 2023 - birthYear;
+const years = [1990,1991,1992,1993,1994]
+const age1 = calcage(years[0])
+const age2 = calcage(years[1])
+const age3 = calcage(years[2])
+const age4 = calcage(years[3])
+const age5 = calcage(years[years.length - 1])
+console.log(age1, age2, age3, age4, age5)
+
+const ages = [calcage(years[0]), calcage(years[1]), calcage(years[2]), calcage(years[3]),
+    calcage(years[years.length - 1])];
+logger(ages);
