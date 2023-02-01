@@ -180,7 +180,11 @@ friends[2] = 'Jay';
 logger(friends)
 
 const jonas = ['Jonas', 'Schmedtmann', 2037 - 1991, 'teacher', friends];
+//log all array
 logger(jonas);
+//log the array friends in position 1 inside jonas array
+logger(jonas[4][1]);
+
 
 //Exercise
 const calcage = (birthYear) => 2023 - birthYear;
@@ -195,3 +199,4 @@ console.log(age1, age2, age3, age4, age5)
 const ages = [calcage(years[0]), calcage(years[1]), calcage(years[2]), calcage(years[3]),
     calcage(years[years.length - 1])];
 logger(ages);
+
