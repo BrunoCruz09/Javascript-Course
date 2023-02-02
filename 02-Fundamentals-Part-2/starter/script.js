@@ -164,7 +164,7 @@ logger(convertCelsiusToFahrenheit2(40));
 //-----------------------------------------------------------------------------
 /**
  * Introducing arrays
- */
+
 const friends = ['Jonas', 'Peter', 'Steve'];
 
 const y = new Array(1991,1992,1993,1994);
@@ -200,3 +200,22 @@ const ages = [calcage(years[0]), calcage(years[1]), calcage(years[2]), calcage(y
     calcage(years[years.length - 1])];
 logger(ages);
 
+/**
+ * LECTURE Introducing array
+
+
+const populations = [10, 1441, 100, 305];
+
+populations.length === 4 ? logger(true) : logger(false);
+
+function percentageOfWorld1(population) {
+    return (population / 7900) * 100 + '%';
+}
+
+const percentages = [percentageOfWorld1([0]),
+    percentageOfWorld1([1]),
+    percentageOfWorld1([2]),
+    percentageOfWorld1([3])];
+logger(percentages);
+*/
+//-----------------------------------------------------------------------------
