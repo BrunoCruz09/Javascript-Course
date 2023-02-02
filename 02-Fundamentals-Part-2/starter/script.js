@@ -219,3 +219,51 @@ const percentages = [percentageOfWorld1([0]),
 logger(percentages);
 */
 //-----------------------------------------------------------------------------
+/**
+ * Basic array operations (Methods)
+
+const friends = ['Jonas', 'Peter', 'Steve'];
+
+//Add new element the end of the array and return the new length of the array
+const newLength = friends.push('Jay');
+logger(friends);
+logger(newLength);
+
+//Add new element the beginning of the array and return the new length of the array
+const newLength1 = friends.unshift('John');
+logger(friends);
+logger(newLength1);
+
+//Remove last element of the array and return the element removed
+const popped = friends.pop()
+logger(friends)
+logger(popped)
+
+//Remove first element of the array and return the element removed
+const shift = friends.shift();
+logger(friends)
+logger(shift)
+
+//Return the index, if not found return -1
+logger(friends.indexOf('Peter'))
+logger(friends.indexOf('Bob'))
+
+//Return true if value is in the array and false if value is not in the array
+logger(friends.includes('Peter'))
+logger(friends.includes('Bob'))
+//we can use includes in conditions
+friends.includes('Peter') ? logger(true) : logger(false)
+
+//LECTURE: Basic array operations
+const neighbours = ['Spain', 'France', 'Italy']
+neighbours.push('Utopia')
+logger(neighbours)
+
+neighbours.pop()
+logger(neighbours)
+
+!neighbours.includes('Germany') ? logger('Probably not a central Europe country :D') : logger()
+
+neighbours[neighbours.indexOf('France')] = 'Germany'
+logger(neighbours)
+ */
