@@ -41,3 +41,36 @@ logger(tips)
 const total = [bills[0] + tips[0],bills[1] + tips[1], bills[2] + tips[2]]
 logger(total)
  */
+//-----------------------------------------------------------------------------
+/**
+ * Challenge Three
+
+const markInformation = {
+    fullName: 'Mark Miller',
+    mass: 78,
+    height: 1.69,
+    calcBMI: function (){
+        this.bmi = this.mass / this.height ** 2
+        return this.bmi
+    }
+}
+
+const johnInformation = {
+    fullName: 'John Smith',
+    mass: 92,
+    height: 1.95,
+    calcBMI: function (){
+        this.bmi = this.mass / this.height ** 2
+        return this.bmi
+    }
+}
+
+markInformation.calcBMI()
+johnInformation.calcBMI()
+
+if (markInformation.bmi > johnInformation.bmi){
+    logger(`${markInformation.fullName} BMI (${markInformation.bmi}) is higher than ${johnInformation.fullName} )${johnInformation.bmi})`)
+}else {
+    logger(`${johnInformation.fullName} BMI ${johnInformation.bmi} is higher than ${markInformation.fullName} ${markInformation.bmi}`)
+}
+ */
