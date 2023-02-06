@@ -267,3 +267,46 @@ logger(neighbours)
 neighbours[neighbours.indexOf('France')] = 'Germany'
 logger(neighbours)
  */
+//-----------------------------------------------------------------------------
+/**
+ * Introducing Objects
+
+const personInformation = {
+    firstName: "Jonas",
+    lastName: 'Schmedtmann',
+    age: 2037 - 1991,
+    job: 'teacher',
+    friends : ['Michael', 'Peter', 'Steven']
+}
+
+//dot notation
+logger(personInformation.lastName)
+logger(personInformation['age'])
+
+//brackets notation
+const nameKey = 'Name'
+logger(personInformation['first' + nameKey])
+logger(personInformation['last' + nameKey])
+
+const interestedIn = prompt('What do you want to know about Jonas? Chose between firsName, lastname, age, job and friends');
+if (personInformation[interestedIn]){
+    logger(personInformation[interestedIn])
+} else {
+    logger('Wrong request')
+}
+
+personInformation.location = 'Portugal'
+personInformation['twitter'] = '@jonasschmedtman'
+logger(personInformation)
+
+//CHALLENGE
+// "Jonas has 3 friends and his best friend is called Michael"
+
+//dot notation
+logger(personInformation.firstName +' has '+ personInformation.friends.length
++' friends and his best friend is called '+ personInformation.friends[0] +'.')
+
+//bracket notations
+// "Jonas have 46 years old and live in Portugal"
+logger(`${personInformation['firstName']} have ${personInformation['age']} years old and live in ${personInformation['location']}.`)
+*/
