@@ -333,11 +333,12 @@ const personInformation = {
     }*!/
 
     calcAge: function () {
-        return this.age = 2037 - this.birthYear
+        this.age = this.age = 2037 - this.birthYear
+        return this.age
     },
 
     getSummary: function () {
-        return `${this.firstName} is a ${this.calcAge()}-years old ${this.job}, and he has ${this.hasDriversLicense ? 'a' : 'no'} driver's license.`
+        return `${this.firstName} is a ${this.age}-years old ${this.job}, and he has ${this.hasDriversLicense ? 'a' : 'no'} driver's license.`
     }
 }
 logger(personInformation.calcAge())
