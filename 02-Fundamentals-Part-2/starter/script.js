@@ -310,3 +310,41 @@ logger(personInformation.firstName +' has '+ personInformation.friends.length
 // "Jonas have 46 years old and live in Portugal"
 logger(`${personInformation['firstName']} have ${personInformation['age']} years old and live in ${personInformation['location']}.`)
 */
+//-----------------------------------------------------------------------------
+/**
+ * Object Methods
+ */
+/*
+const personInformation = {
+    firstName: "Jonas",
+    lastName: 'Schmedtmann',
+    birthYear: 1991,
+    job: 'teacher',
+    friends : ['Michael', 'Peter', 'Steven'],
+    hasDriversLicense: true,
+
+    //function inside object
+   /!* calcAge: function (birthYear) {
+        return 2037 - birthYear
+    }*!/
+    /!*calcAge: function () {
+        // logger(this)
+        return 2037 - this.birthYear
+    }*!/
+
+    calcAge: function () {
+        return this.age = 2037 - this.birthYear
+    },
+
+    getSummary: function () {
+        return `${this.firstName} is a ${this.calcAge()}-years old ${this.job}, and he has ${this.hasDriversLicense ? 'a' : 'no'} driver's license.`
+    }
+}
+logger(personInformation.calcAge())
+logger(personInformation.age)
+logger(personInformation.age)
+logger(personInformation.age)
+
+//CHALLENGE
+logger(personInformation.getSummary())*/
+//-----------------------------------------------------------------------------
