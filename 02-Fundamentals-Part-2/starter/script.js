@@ -315,8 +315,8 @@ logger(`${personInformation['firstName']} have ${personInformation['age']} years
 const myCountry = {
     county: 'Portugal',
     capital: 'Lisboa',
-    language: 'Português',
-    population: '10M',
+    language: 'Portugues',
+    population: 10,
     neighbours: ['Espanha', 'França', 'Itália']
 }
 logger(myCountry.county)
@@ -324,6 +324,12 @@ logger(myCountry.neighbours)
 logger(myCountry.neighbours[1])
 logger(myCountry['population'])
 logger(myCountry['neighbours'][0])
+
+
+//Lecture: Dot vs. Bracket Notation
+logger(`${myCountry.county} has ${myCountry.population} million ${myCountry.language} speaking people, ${myCountry.neighbours.length} neighbouring countries and a capital called ${myCountry.capital}.`)
+logger(myCountry.population = myCountry.population + 2)
+logger(myCountry)
  */
 //-----------------------------------------------------------------------------
 /**
