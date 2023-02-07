@@ -327,6 +327,7 @@ logger(myCountry['neighbours'][0])
 
 
 //Lecture: Dot vs. Bracket Notation
+//Finland has 6 million finnish-speaking people, 3 neighbouring countries and a capital called Helsinki.
 logger(`${myCountry.county} has ${myCountry.population} million ${myCountry.language} speaking people, ${myCountry.neighbours.length} neighbouring countries and a capital called ${myCountry.capital}.`)
 logger(myCountry.population = myCountry.population + 2)
 logger(myCountry)
@@ -369,4 +370,30 @@ logger(personInformation.age)
 
 //CHALLENGE
 logger(personInformation.getSummary())*/
+
+/**
+ * Lecture Object Method
+
+
+const myCountry = {
+    county: 'Portugal',
+    capital: 'Lisboa',
+    language: 'Portugues',
+    population: 10,
+    neighbours: ['Espanha', 'França', 'Itália'],
+
+    //Finland has 6 million finnish-speaking people, 3 neighbouring countries and a capital called Helsinki.
+    describe: function (){
+        return `${this.county} has ${this.population} million ${this.language} speaking people ${this.neighbours.length} neighbouring countries and a capital called ${this.capital}`
+    },
+
+    checkIsland: function (){
+        this.isIsland = this.isIsland = this.neighbours.length <= 0
+        return this.isIsland
+    }
+}
+
+logger(myCountry.describe())
+logger(myCountry.checkIsland())
+ */
 //-----------------------------------------------------------------------------
