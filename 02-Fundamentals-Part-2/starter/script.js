@@ -276,7 +276,7 @@ const personInformation = {
     lastName: 'Schmedtmann',
     age: 2037 - 1991,
     job: 'teacher',
-    friends : ['Michael', 'Peter', 'Steven']
+    friends: ['Michael', 'Peter', 'Steven']
 }
 
 //dot notation
@@ -309,7 +309,22 @@ logger(personInformation.firstName +' has '+ personInformation.friends.length
 //bracket notations
 // "Jonas have 46 years old and live in Portugal"
 logger(`${personInformation['firstName']} have ${personInformation['age']} years old and live in ${personInformation['location']}.`)
-*/
+
+
+//Lecture: Introducing Objects
+const myCountry = {
+    county: 'Portugal',
+    capital: 'Lisboa',
+    language: 'Português',
+    population: '10M',
+    neighbours: ['Espanha', 'França', 'Itália']
+}
+logger(myCountry.county)
+logger(myCountry.neighbours)
+logger(myCountry.neighbours[1])
+logger(myCountry['population'])
+logger(myCountry['neighbours'][0])
+ */
 //-----------------------------------------------------------------------------
 /**
  * Object Methods
