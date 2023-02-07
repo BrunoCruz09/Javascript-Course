@@ -397,3 +397,16 @@ logger(myCountry.describe())
 logger(myCountry.checkIsland())
  */
 //-----------------------------------------------------------------------------
+/**
+ * Iteration: The for loop
+
+for(let i = 1; i <= 10; i++){
+    logger(`Lifting weights repetition ${i} 🏋🏼`)
+} */
+
+/**
+ * Lecture: Iteration: The for loop
+ */
+for (let i = 1; i <= 50; i++) {
+    logger(`Voter number ${i} is currently voting.`)
+}
