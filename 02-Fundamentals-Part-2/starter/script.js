@@ -406,7 +406,66 @@ for(let i = 1; i <= 10; i++){
 
 /**
  * Lecture: Iteration: The for loop
- */
+
 for (let i = 1; i <= 50; i++) {
     logger(`Voter number ${i} is currently voting.`)
+}*/
+//-----------------------------------------------------------------------------
+/**
+ * Looping Arrays, Breaking and Continuing
+
+const personInformation = [
+    'Jonas',
+    'Schmedtmann',
+    2037 - 1991,
+    'teacher',
+    ['Michael', 'Peter', 'Steven'],
+    'Portugal'
+]
+
+const types = []
+
+for (let i = 0; i < personInformation.length; i++) {
+    console.log(personInformation[i])
+    types.push(typeof personInformation[i])
+    //Other solution
+     //ypes[i] = typeof personInformation[i]
 }
+logger(types)
+
+//EXERCISE
+const years = [1991, 2007, 1969, 2020]
+const ages = []
+
+for (let i = 0; i < years.length; i++){
+    const currentYear = 2023
+    ages.push(currentYear - years[i])
+}
+logger(years)
+logger(ages)
+//Continue and break
+logger('--- ONLY STRINGS ---')
+for (let i = 0; i < personInformation.length; i++) {
+    if (typeof personInformation[i] !== 'string') continue;
+    console.log(personInformation[i], typeof personInformation[i])
+}
+logger('--- BREAK WITH NUMBER ---')
+for (let i = 0; i < personInformation.length; i++) {
+    if (typeof personInformation[i] == 'number') break;
+    console.log(personInformation[i], typeof personInformation[i])
+} */
+
+/**
+ * Lecture: Looping Arrays, Breaking and Continuing
+
+const populations = [7900, 3950, 2645, 5655]
+const percentages = []
+function percentageOfWorld1(population) {
+    return (population / 7900) * 100 + '%';
+}
+
+for (let i = 0; i < populations.length; i++){
+    percentages.push(percentageOfWorld1(populations[i]))
+}
+logger(percentages)
+ */
