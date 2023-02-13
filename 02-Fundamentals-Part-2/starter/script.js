@@ -429,7 +429,7 @@ for (let i = 0; i < personInformation.length; i++) {
     console.log(personInformation[i])
     types.push(typeof personInformation[i])
     //Other solution
-     //ypes[i] = typeof personInformation[i]
+     //types[i] = typeof personInformation[i]
 }
 logger(types)
 
@@ -469,3 +469,36 @@ for (let i = 0; i < populations.length; i++){
 }
 logger(percentages)
  */
+//-----------------------------------------------------------------------------
+/**
+ * Looping Backwards and Loops in Loops
+
+const personInformation = [
+    'Jonas',
+    'Schmedtmann',
+    2037 - 1991,
+    'teacher',
+    ['Michael', 'Peter', 'Steven'],
+    'Portugal'
+]
+
+for(let i = personInformation.length - 1; i >= 0; i--){
+    logger(personInformation[i])
+}
+
+
+for (let i = 1; i < 4; i++){
+    logger(`---Starting exercise ${i}`)
+    for(let j = 1; j < 6; j++){
+        logger(`Exercise ${i}: Lifting weigh repetition ${j} 🏋🏼`)
+    }
+}
+ /**
+ * Lecture: Looping Backwards and Loops in Loops
+const listOfNeighbours = [['Canada', 'Mexico'], ['Spain'], ['Norway', 'Sweden', 'Italy']]
+for (let i = 0; i < listOfNeighbours.length; i++){
+    for (let j = 0; j < listOfNeighbours[i].length; j++){
+        logger(`Neighbour: ${listOfNeighbours[i][j]}`)
+    }
+}
+} */
