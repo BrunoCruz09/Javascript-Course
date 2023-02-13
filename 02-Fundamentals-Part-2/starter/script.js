@@ -502,3 +502,37 @@ for (let i = 0; i < listOfNeighbours.length; i++){
     }
 }
 } */
+//-----------------------------------------------------------------------------
+/**
+ *
+ * The while Loop
+
+let i = 1
+while (i <= 10) {
+    logger(`Lifting weigh repetition ${i} 🏋🏼`)
+    i++
+}
+
+let dice = Math.trunc(Math.random() * 6) + 1
+
+
+while(dice !== 6){
+    logger(`You rolled a dice ${dice}`)
+    dice = Math.trunc(Math.random() * 6) + 1
+    if (dice === 6 )logger('loop is about to end...')
+}
+
+/**
+ * Lecture: The while Loop
+
+const populations = [7900, 3950, 2645, 5655]
+const percentages = []
+function percentageOfWorld1(population) {
+    return (population / 7900) * 100 + '%';
+}
+let i = 0;
+while (i < populations.length){
+    percentages.push(percentageOfWorld1(populations[i]))
+    i++
+}
+logger(percentages)*/
