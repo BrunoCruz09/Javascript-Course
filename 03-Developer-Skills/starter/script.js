@@ -26,7 +26,6 @@ const temp = (temp) =>{
         if(curTemp > maxValue) maxValue = curTemp
         if(curTemp < minValue) minValue = curTemp
     }
-    //console.log( minValue)
     return [maxValue, minValue]
 }
 
