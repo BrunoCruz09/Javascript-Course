@@ -10,7 +10,7 @@ const printForecast = (arr) => {
 }
 
 printForecast(arrayTwo)
-console.log('------------')
+console.log('-------------')
 const temperature = [14,33,6,34,1,27,41];
 const temp = (temp) =>{
     let maxValue = temp[0];
