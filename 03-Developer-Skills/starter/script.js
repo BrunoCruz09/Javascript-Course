@@ -11,22 +11,31 @@ const printForecast = (arr) => {
 
 printForecast(arrayTwo)
 console.log('-------------')
-const temperature = [14,33,6,34,1,27,41];
-const temp = (temp) =>{
+const temp = (temp1, temp2) =>{
+    const temp = temp1.concat(temp2)
     let maxValue = temp[0];
     let minValue = temp[0];
-    /*return max value
-    return Math.max.apply(null, temp)*/
 
-    /*return min value
-    return Math.min(...temp)*/
     for(let i = 0; i < temp.length; i++){
         const curTemp = temp[i]
-
         if(curTemp > maxValue) maxValue = curTemp
         if(curTemp < minValue) minValue = curTemp
     }
-    return [maxValue, minValue]
+    console.log(maxValue, minValue)
+    return maxValue - minValue
 }
 
-console.log(temp(temperature))
+console.log(temp([2, 5, 1, -4], [6, 0, 9]))
+console.log('-------------')
+function measureKelvin(){
+    const obj = {
+        type: "temp",
+        unit: "celsius",
+        value: Number(prompt("Dregree celsius"))
+    }
+
+    const kelvin = obj.value + 273
+    return kelvin
+}
+
+console.log(measureKelvin())
