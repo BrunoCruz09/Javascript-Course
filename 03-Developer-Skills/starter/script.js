@@ -1,6 +1,6 @@
 // Remember, we're gonna use strict mode in all scripts now!
 'use strict';
-
+/*
 const arrayOne = [17, 21, 23]
 const arrayTwo = [12, 5, -5, 0, 4]
 const printForecast = (arr) => {
@@ -38,4 +38,4 @@ function measureKelvin(){
     return kelvin
 }
 
-console.log(measureKelvin())
+console.log(measureKelvin())*/
